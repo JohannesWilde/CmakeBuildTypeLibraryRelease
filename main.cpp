@@ -1,9 +1,7 @@
-#include <iostream>
-
-using namespace std;
+#include <externalLibrary/publicHeader.hpp>
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    someMethod();
     return 0;
 }
